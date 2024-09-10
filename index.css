@@ -1,8 +1,22 @@
-/*  Innehållsförteckning
+/*  Innehållsförteckning:
     1.Nav
     2.Body
+    3.Hero
  */
+/* 1.Nav */
 
- #lineup{
-    display:flex;
+/* 2. Body */
+
+/* Här ger jag section elementen flex display som gör att alla bilder och text sitter jämnt med varandra på webbsidan. */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ .lineup{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
  }

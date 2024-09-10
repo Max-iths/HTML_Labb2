@@ -4,24 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css" type="text/css">
-    <meta name="description" content="">
+    <meta name="description" content="Stockholms heaviest weekend with lots of amazing bands you won't want to miss!">
     <title>Stockholm Metal Weekend</title>
 </head>
 <body>
     <header>
         <h1>Stockholm Metal Weekend</h1>
-        <nav></nav>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#lineup">Lineup</a></li>
+                <li><a href=".tickets">Tickets</a></li>
+                <li><a href="footer">Contact</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
-    <h2>Lineup</h2>
-    <section id="lineup">
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-    </section>
+        <!-- Section Hero -->
+        <section class="hero">
+            <h2>Sweden's heaviest weekend</h2>
+            <h3>October 28-29, 2024</h3>
+        </section>
+        <!-- Section Lineup -->
+        <h2>Lineup</h2>
+        <section id="lineup_saturday">
+            <div><img src="" alt=""><p></p></div>
+            <div><img src="" alt=""><p></p></div>
+            <div><img src="" alt=""><p></p></div>
+            <div><img src="" alt=""><p></p></div>
+            <div><img src="" alt=""><p></p></div>
+            <div><img src="" alt=""><p></p></div>
+        </section>
+        <section id="lineup_sunday">
+            <div><img src="" alt=""><p></p></div>
+            <div><img src="" alt=""><p></p></div>
+            <div><img src="" alt=""><p></p></div>
+            <div><img src="" alt=""><p></p></div>
+            <div><img src="" alt=""><p></p></div>
+            <div><img src="" alt=""><p></p></div>  
+        </section>
+        <!-- Section Tickets -->
+        <section class="tickets">
+            <form action="" method="get">
+                <legend>Tickets</legend>
+                    <label for="saturday">Saturday | 500sek</label>
+                    <input type="radio" name="day" id="saturday">
+                    <label for="sunday">Sunday | 400sek</label>
+                    <input type="radio" name="day" id="sunday">
+                    <label for="both">Both days | 700sek</label>
+                    <input type="radio" name="day" id="both">
+                    <input type="submit" value="Purchase">
+            </form>
+        </section>
     </main>
     <footer></footer>
 </body>
