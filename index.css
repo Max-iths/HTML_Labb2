@@ -3,9 +3,6 @@
     2.Body
     3.Hero
  */
-/* 1.Nav */
-
-/* 2. Body */
 
 /* Här ger jag section elementen flex display som gör att alla bilder och text sitter jämnt med varandra på webbsidan. */
 * {
@@ -14,13 +11,8 @@
     box-sizing: border-box;
 }
 
- .lineup{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex-wrap: wrap;
- }
 
+ /* 1. Nav */
 .nav {
     width: 100%;
     height: 75px;
@@ -29,12 +21,54 @@
     left:0;
     background-color: rgb(52, 26, 26);
     color:whitesmoke;
+    margin-bottom:0;
 }
 
+header,  .nav {
+    grid-area: header; 
+}
+
+
+/* 2. Body */
+
+
+body {
+    display:grid;
+    grid-template-rows: 1fr 4fr 1fr;
+    grid-template-areas: 
+        'header'
+        'main'
+        'footer';
+        height: 100vh;
+}
+
+.lineup{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+ }
+
+
+
+/* 3. Hero */
 .hero  {
     width: 95%;
     height: 300px;
     margin: auto;
     background-image: url();
     border:1px solid white;
+}
+
+/* 4. Main */
+
+main {
+    grid-area: main;
+}
+
+
+/* 5. Footer */
+
+footer {
+    grid-area: footer;
 }
