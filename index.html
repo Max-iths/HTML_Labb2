@@ -39,40 +39,42 @@
             </div>
         </section>
         <!-- Section Lineup -->
-         <article class="lineup">
-        <h2>Lineup</h2>
-        <h3>Saturday</h3>
-        <section id="lineup_saturday">
-            <p><strong>The Hives</strong> 16:00</p>
-            <p><strong>Satyricon</strong> 17:00</p>
-            <p><strong>Igorrr</strong> 17:45</p>
-            <p><strong>Graveyard</strong> 18:50</p>
-            <p><strong>Amon Amarth</strong> 20:00</p>
-            <p><strong>In Flames</strong> 21:30</p>
-        </section>
-        <h3>Sunday</h3>
-        <section id="lineup_sunday">
-            <p><strong>Pantera</strong> 16:00</p>
-            <p><strong>Bring me the Horizon</strong> 17:00</p>
-            <p><strong>Jinjer</strong> 17:45</p>
-            <p><strong>Alter Bridge</strong> 18:50</p>
-            <p><strong>Spiritbox</strong> 20:00</p>
-            <p><strong>Iron Maiden</strong> 21:30</p>
-        </section>
-        <!-- Section Tickets -->
-        <section class="tickets">
-            <form action="" method="get">
-                <legend>Tickets</legend>
+        <article class="lineup">
+            <h2>Lineup</h2>
+            <h3>Saturday</h3>
+            <section id="lineup_saturday">
+                <p><strong>The Hives</strong> 16:00</p>
+                <p><strong>Satyricon</strong> 17:00</p>
+                <p><strong>Igorrr</strong> 17:45</p>
+                <p><strong>Graveyard</strong> 18:50</p>
+                <p><strong>Amon Amarth</strong> 20:00</p>
+                <p><strong>In Flames</strong> 21:30</p>
+            </section>
+            <h3>Sunday</h3>
+            <section id="lineup_sunday">
+                <p><strong>Pantera</strong> 16:00</p>
+                <p><strong>Bring me the Horizon</strong> 17:00</p>
+                <p><strong>Jinjer</strong> 17:45</p>
+                <p><strong>Alter Bridge</strong> 18:50</p>
+                <p><strong>Spiritbox</strong>20:00</p>
+                <p><strong>Iron Maiden</strong> 21:30</p>
+            </section>
+            <!-- Section Tickets -->
+            <section class="tickets">
+                <form action="" method="get" class="ticket-form">
+                    <legend>Ticket pricing</legend>
                     <label for="saturday">Saturday | 500sek</label>
                     <input type="radio" name="day" id="saturday">
                     <label for="sunday">Sunday | 400sek</label>
                     <input type="radio" name="day" id="sunday">
                     <label for="both">Both days | 700sek</label>
                     <input type="radio" name="day" id="both">
-                    <input type="submit" value="Purchase">
-            </form>
-        </section>
-    </article>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" pattern=".+@example\.com" >
+                    <input type="submit" value="Purchase" id="purchase-btn">
+                </form>
+            </section>
+        </article>
     </main>
     <footer></footer>
 </body>
