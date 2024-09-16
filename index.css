@@ -130,8 +130,8 @@ main {
 
 #lineup_saturday {
     display:grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 50px 50px 50px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    /* grid-template-rows: 50px 50px 50px; */
     align-items: center;
     text-align:center;
     gap:10px;
