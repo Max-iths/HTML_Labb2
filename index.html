@@ -5,7 +5,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap" rel="stylesheet">
-
+    <!-- Linking bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -25,7 +26,7 @@
             </ul>
         </nav>
     </header>
-    <main>
+    <main class="container">
         <!-- Section Hero -->
         <section class="hero">
             <!--<img id="hero-img"
@@ -33,6 +34,7 @@
             alt="Purple fireworks going off on a stage at a concert."
             sizes="(max-width: 980px) 960px, (min-width: 360px) 340px, 100vw"
             srcset="img\pexels-wendywei-1190298 (340).jpg, 340w, C:\Users\46703\Documents\GitHub\HTML_Labb2\img\pexels-wendywei-1190298 (960).jpg, 960w"> -->
+            <img src="img/pexels-wendywei-1387174 (1).jpg" alt="A concert at night with a large audience and a stage lit up with blue lights." id="hero_img">
             <div class="text-overlay">
                 <h2>Sweden's heaviest weekend</h2>
                 <h3>October 28-29, 2024</h3>
@@ -57,18 +59,18 @@
                 <p><strong>Bring me the Horizon</strong> 17:00</p>
                 <p><strong>Jinjer</strong> 17:45</p>
                 <p><strong>Alter Bridge</strong> 18:50</p>
-                <p><strong>Spiritbox</strong>20:00</p>
+                <p><strong>Spiritbox</strong> 20:00</p>
                 <p><strong>Iron Maiden</strong> 21:30</p>
             </section>
             <!-- Section Tickets -->
             <section class="tickets">
                 <form action="" method="get" class="ticket-form">
                     <legend>Ticket pricing</legend>
-                    <label for="saturday">Saturday | 500sek</label>
+                    <label for="saturday"><strong>Saturday:</strong> 500sek</label>
                     <input type="radio" name="day" id="saturday">
-                    <label for="sunday">Sunday | 400sek</label>
+                    <label for="sunday"><strong>Sunday:</strong> 400sek</label>
                     <input type="radio" name="day" id="sunday">
-                    <label for="both">Both days | 700sek</label>
+                    <label for="both"><strong>Both days:</strong> 700sek</label>
                     <input type="radio" name="day" id="both">
                     <label for="email">Email</label>
                     <input type="email" id="email" pattern=".+@example\.com" >
