@@ -22,7 +22,7 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="#lineup">Lineup</a></li>
                 <li><a href=".tickets">Tickets</a></li>
-                <li><a href="footer">Contact</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -34,7 +34,7 @@
             alt="Purple fireworks going off on a stage at a concert."
             sizes="(max-width: 980px) 960px, (min-width: 360px) 340px, 100vw"
             srcset="img\pexels-wendywei-1190298 (340).jpg, 340w, C:\Users\46703\Documents\GitHub\HTML_Labb2\img\pexels-wendywei-1190298 (960).jpg, 960w"> -->
-            <img src="img/pexels-wendywei-1387174 (1).jpg" alt="A concert at night with a large audience and a stage lit up with blue lights." id="hero_img">
+            <img src="img/red-fireworks (1).jpg" alt="A concert at night with a large audience and a stage lit up with red fireworks." id="hero_img">
             <div class="text-overlay">
                 <h2>Sweden's heaviest weekend</h2>
                 <h3>October 28-29, 2024</h3>
@@ -52,7 +52,7 @@
                 <p><strong>Amon Amarth</strong> 20:00</p>
                 <p><strong>In Flames</strong> 21:30</p>
             </section>
-            <div id="lineup-divider"></div>
+            <div id="lineup_divider"></div>
             <h3>Sunday</h3>
             <section id="lineup_sunday">
                 <p><strong>Pantera</strong> 16:00</p>
@@ -72,13 +72,17 @@
                     <input type="radio" name="day" id="sunday">
                     <label for="both"><strong>Both days:</strong> 700sek</label>
                     <input type="radio" name="day" id="both">
-                    <label for="email">Email</label>
-                    <input type="email" id="email" pattern=".+@example\.com" >
+                    <label for="name"><strong>Name:</strong></label>
+                    <input type="text" id="name" required>
+                    <label for="email"><strong>Email:</strong></label>
+                    <input type="email" id="email" pattern=".+@example\.com" required>
                     <input type="submit" value="Purchase" id="purchase-btn">
                 </form>
             </section>
         </article>
     </main>
-    <footer></footer>
+    <footer id="contact">
+
+    </footer>
 </body>
 </html>
