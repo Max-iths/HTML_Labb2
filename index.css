@@ -302,3 +302,19 @@ footer {
         margin:0 auto;
     }
 }
+
+@media (max-width:417px) {
+    .hero {
+        padding-top:50px;
+    }
+    nav a {
+        padding:none;
+        border:none;
+
+    }
+
+    nav a:hover {
+        color:white;
+        background-color: black;
+    }
+}
