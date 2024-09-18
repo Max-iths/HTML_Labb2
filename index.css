@@ -130,8 +130,8 @@ header {
 /* 4. Main */
 
 main {
-    width: 80vw;
-    height: 60vh;
+    /* width: 80vw;
+    height: 60vh; */
 
     margin-top:100px;
     margin:auto;
@@ -139,10 +139,11 @@ main {
 
 /* 5. Lineup Section */
  .lineup{
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap; */
+    padding-bottom:100px;
  }
 
 .lineup {
@@ -209,10 +210,11 @@ main {
 .ticket-form {
     display: grid;
     gap: 1rem;
-    grid-template-columns: auto 1fr;
+    grid-template-columns: 1fr;
     font-size: 16px;
     align-items: center;
     margin-bottom:1rem;
+    padding-top:75px;
 }
 
 .ticket-form legend {
@@ -228,13 +230,14 @@ main {
 }
 
 #email, #name {
-    margin-right:250px;
+    width:30%;
 }
 /* Här stylar jag knappen så att det är mer förståligt en fungerande knapp */
 #purchase-btn{
     font-family: "Metal Mania", sans-serif, helvetica, arial;
     letter-spacing: 2px;
     font-weight:bold;
+    width:20%;
 }
 
 #purchase-btn:hover {
