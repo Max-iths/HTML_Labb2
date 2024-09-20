@@ -20,7 +20,7 @@
         <nav>
             <ul class="nav">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="#lineup">Lineup</a></li>
+                <li><a href="#lineup-section">Lineup</a></li>
                 <li><a href="#ticket-section">Tickets</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -29,44 +29,39 @@
     <main class="container">
         <!-- Section Hero -->
         <section class="hero">
-            <!--<img id="hero-img"
-            src="img/pexels-wendywei-1190298 (340).jpg"
-            alt="Purple fireworks going off on a stage at a concert."
-            sizes="(max-width: 980px) 960px, (min-width: 360px) 340px, 100vw"
-            srcset="img\pexels-wendywei-1190298 (340).jpg, 340w, C:\Users\46703\Documents\GitHub\HTML_Labb2\img\pexels-wendywei-1190298 (960).jpg, 960w"> -->
-            <img src="img/red-fireworks (1).jpg" alt="A concert at night with a large audience and a stage lit up with red fireworks." id="hero_img">
+            <img src="img/red-fireworks-large.jpg" alt="A concert at night with a large audience and a stage lit up with red fireworks." id="hero_img">
             <div class="text-overlay">
                 <h2>Sweden's heaviest weekend</h2>
                 <h3>October 28-29, 2024</h3>
             </div>
         </section>
         <!-- Section Lineup -->
-        <article class="lineup">
+        <article class="lineup" id="lineup-section">
             <h2>Line-up</h2>
             <h3>Saturday</h3>
-            <section id="lineup_saturday">
+            <div id="lineup_saturday">
                 <p><strong>The Hives</strong> 16:00</p>
                 <p><strong>Satyricon</strong> 17:00</p>
                 <p><strong>Igorrr</strong> 17:45</p>
                 <p><strong>Graveyard</strong> 18:50</p>
                 <p><strong>Amon Amarth</strong> 20:00</p>
                 <p><strong>In Flames</strong> 21:30</p>
-            </section>
+            </div>
             <div class="lineup_divider"></div>
             <h3>Sunday</h3>
-            <section id="lineup_sunday">
+            <div id="lineup_sunday">
                 <p><strong>Pantera</strong> 16:00</p>
                 <p><strong>Bring me the Horizon</strong> 17:00</p>
                 <p><strong>Jinjer</strong> 17:45</p>
                 <p><strong>Alter Bridge</strong> 18:50</p>
                 <p><strong>Spiritbox</strong> 20:00</p>
                 <p><strong>Iron Maiden</strong> 21:30</p>
-            </section>
+            </div>
             <div class="lineup_divider"></div>
             <!-- Section Tickets -->
             <section class="tickets" id="ticket-section">
-                <form action="" method="get" class="ticket-form">
-                    <legend>Ticket pricing</legend>
+                <form action="index.html" method="get" class="ticket-form">
+                    <h3 id="form_h3">Ticket pricing</h3>
                     <label for="saturday"><strong>Saturday:</strong> 500sek</label>
                     <input type="radio" name="day" id="saturday">
                     <label for="sunday"><strong>Sunday:</strong> 400sek</label>
@@ -84,11 +79,11 @@
     </main>
     <footer id="contact">
         <h3>Contact us if you have any questions!</h3>
-        <div id="footerwrapper">
-        <p><strong>Email:</strong>   sthlm_metal_wknd@gmail.com</p>
-        <p><strong>Tel:</strong>   073-859-0391</p>
-        <p><strong>Address:</strong>   Kanelbullegatan 27, 11842, Stockholm, Sweden</p>
-        </div>
+        <p><strong>Email:</strong> sthlm_metal_wknd@gmail.com</p>
+        <p><strong>Tel:</strong> 073-859-0391</p>
+        <p><strong>Address:</strong> Kanelbullegatan 27, 11842, Stockholm, Sweden</p>
     </footer>
 </body>
 </html>
+
+<!-- Validerat 20/9 2024 -->
